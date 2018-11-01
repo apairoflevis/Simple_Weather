@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body id="bg">
+
+    <!--Header Section-->
+    <header class="header">
+        <div class="simple-container">
+            <span class="logo">Simply Weather</span>
+        </div>
+    </header>
+    <!--End of Header Section-->
+    <div id="searchContainer">
+        <input class="control" type="text" placeholder="City Name or Zip" id="search">
+        <button class="control" id="searchBtn">Search</button>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDesc">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temp"></div>
+                <div id="weatherHeader"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class="bottomDetails"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

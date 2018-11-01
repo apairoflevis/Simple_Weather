@@ -1,0 +1,11 @@
+{
+  "name": "simple_weather",
+  "version": "1.0.0",
+  "description": "A Simple Weather App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew De La paz",
+  "license": "MIT"
+}
