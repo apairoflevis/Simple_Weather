@@ -4,8 +4,13 @@
   "description": "A Simple Weather App",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages"
   },
   "author": "Andrew De La paz",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://apairoflevis.github.io/Simple_Weather",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
